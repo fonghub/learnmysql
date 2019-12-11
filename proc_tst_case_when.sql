@@ -1,6 +1,6 @@
 DROP PROCEDURE IF EXISTS `proc_tst_case_when`;
 
-CREATE DEFINER = `root`@`localhost` PROCEDURE `proc_tst_case_when`(IN param INT)
+CREATE PROCEDURE `proc_tst_case_when`(IN param INT)
 BEGIN
 
 	SELECT

@@ -1,6 +1,6 @@
 DROP PROCEDURE IF EXISTS `proc_tst_cursor`;
 
-CREATE DEFINER = `root`@`localhost` PROCEDURE `proc_tst_cursor`()
+CREATE PROCEDURE `proc_tst_cursor`()
 BEGIN
 	DECLARE done INT DEFAULT 0;
 	DECLARE a CHAR(100) DEFAULT '';
